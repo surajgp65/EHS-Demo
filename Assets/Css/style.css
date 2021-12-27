@@ -1,0 +1,1186 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+/* Custom Css */
+
+body {
+    position: relative;
+}
+
+.chat-btn {
+    position: fixed;
+    z-index: 9999;
+    right: 2%;
+    bottom: 2%;
+    color: white;
+    font-size: 15px;
+    /* background-image: linear-gradient(to right, rgb(0, 31, 82), rgb(0, 69, 126)); */
+    background-color: #076db5;
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+.chat-btn:hover {
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    /* background-image: linear-gradient(to right, rgb(0, 31, 82), rgb(0, 69, 126)); */
+    background-color: #076db5;
+    border-radius: 10px;
+}
+
+section {
+    padding: 1rem;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 40px;
+    margin: auto;
+}
+
+.max-width-1 {
+    max-width: 700px;
+    margin: auto;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+
+/* Navbar Css */
+
+.navbar_ai {
+    position: fixed;
+    width: 100%;
+    padding: 25px 1.3rem;
+    background: transparent;
+    font-family: 'Ubuntu', 'sans-serif';
+    transition: all ease .5s;
+    z-index: 99999;
+}
+
+.bg-black {
+    /* background-image: linear-gradient(to right, rgb(0, 31, 82), rgb(0, 69, 126)); */
+    background-color: #076db5;
+    color: white;
+    text-align: center;
+}
+
+.navbar_ai.sticky {
+    padding: 10px 1.3rem;
+    background-color: #076db5;
+}
+
+.navbar_ai .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_ai .logo {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.navbar_ai .logo a {
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar_ai.sticky .logo a {
+    color: white;
+}
+
+.navbar_ai.sticky .logo a span {
+    color: white;
+}
+
+.navbar_ai ul {
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.navbar_ai .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar_ai ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar_ai.sticky .menu li a {
+    color: white;
+}
+
+.navbar_ai ul li a:hover {
+    text-decoration: underline dotted 4px;
+    /* color: #2fb383 !important; */
+}
+
+.navbar_ai.sticky .menu li a:hover {
+    color: white;
+}
+
+.menu-btn {
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+
+/* .nav-link:hover {
+    background: -webkit-linear-gradient(#18a86b, #2fb383);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+} */
+
+
+/* Navbar Css End */
+
+
+/* Hero Section */
+
+.hero {
+    object-fit: cover;
+    display: flex;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Background/header1.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height: 60vh;
+    color: black;
+    min-height: 500px;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+.hero .container {
+    text-align: center;
+    place-self: center;
+    color: white;
+}
+
+.mid label {
+    font-size: 40px;
+    font-family: 'Birthstone', cursive;
+    background: -webkit-linear-gradient(#18a86b, #2fb383);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mid .bt {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.mid p {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wt-vid {
+    font-size: 20px;
+    font-weight: 500;
+    /* transition: 0.3s all ease-in-out; */
+}
+
+.wt-vid:hover .fa {
+    transform: translateY(10px);
+    transition: all .5s ease-in-out;
+}
+
+.sr-p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+/* Hero End */
+
+
+/* About Css */
+
+section.About {
+    padding: 50px 0px;
+    background-image: url(../img/tom-morel-ktVazL5c7FM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+.midd {
+    text-align: center;
+}
+
+.midd .content {
+    margin: 20% 0px;
+}
+
+.ab-img {
+    width: 100%;
+}
+
+
+/* About Css  End */
+
+
+/* Services Start*/
+
+.card-ct {
+    padding: 3.5rem 2.5rem;
+    text-align: left;
+    border-radius: 10px;
+    color: white;
+    transition: .2s all ease-in-out;
+}
+
+.card-ct:hover {
+    transform: scale(1.02);
+}
+
+.card-title {
+    text-align: left;
+    font-weight: 700;
+}
+
+.img1 {
+    background: linear-gradient( #00000080, #00000080), url(../img/Background/j-zeerak-Tkgo0qhNrjQ-unsplash.jpg) no-repeat center;
+}
+
+.img2 {
+    background: linear-gradient( #00000080, #00000080), url(../img/Background/pop-zebra-wp81DxKUd1E-unsplash.jpg) no-repeat center;
+}
+
+.img3 {
+    background: linear-gradient( #00000080, #00000080), url(../img/Background/steven-kamenar-MMJx78V7xS8-unsplash.jpg) no-repeat center;
+}
+
+.btn.ser-btn {
+    margin: 10px 0px;
+    padding: 5px 1rem;
+    color: white;
+    font-size: 15px;
+    background: #1dc331;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all .3s ease-in-out;
+}
+
+.btn.ser-btn.s {
+    border: 1px solid #1dc331;
+    font-size: 14px;
+}
+
+.btn.ser-btn:hover,
+.btn.ser-btns:hover {
+    background: white;
+    color: #1dc331;
+}
+
+
+/* Services End*/
+
+
+/* Innovative Start */
+
+.Innovative .card,
+.article .card {
+    transition: .3s all ease-in-out;
+}
+
+.Innovative .card:hover,
+.article .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 7px 20px -10px;
+}
+
+.cd-img {
+    position: relative;
+}
+
+.cd-img img {
+    filter: brightness(80%);
+}
+
+.cd-img::before {
+    position: absolute;
+    width: 70px;
+    height: 45px;
+    font-family: FontAwesome;
+    /* content: "\25BA"; */
+    content: "";
+    color: white;
+    padding: 0px 25px;
+    font-size: 23px;
+    top: 30%;
+    left: 30%;
+    transform: translate(15px, 10px);
+    background-color: #158324c2;
+    transition: all 80ms ease-out 0s;
+    z-index: 2;
+}
+
+.cd-img:hover::before {
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background-color: #118b21c2;
+    left: 0;
+    top: 0;
+    transform: translate(0px, 0px);
+    transition: all 80ms ease-out 0s;
+    mix-blend-mode: normal;
+}
+
+.cd-img::after {
+    position: absolute;
+    font-family: FontAwesome;
+    content: "\25BA";
+    color: white;
+    padding: 0px 25px;
+    font-size: 23px;
+    top: 30%;
+    left: 30%;
+    transform: translate(15px, 10px);
+    z-index: 5;
+}
+
+
+/* Innovative End */
+
+
+/* Owl carousel Start */
+
+.owl-imgs {
+    padding: 10px 20px;
+}
+
+
+/* Owl carousel End */
+
+
+/* Subscribe start */
+
+.Subscribe {
+    width: 100%;
+    /* min-height: 25rem; */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Background/christin-hume-mfB1B1s4sMc-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+.Subscribe .mid .bt {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+
+/* Subscribe End */
+
+
+/* Learn more Start */
+
+.learn-more {
+    object-fit: cover;
+    display: flex;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/learn_more/sam-goodgame-R-EoBC2_QtY-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height: 60vh;
+    color: black;
+    min-height: 500px;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+.learn-more .container {
+    text-align: center;
+    place-self: center;
+    color: white;
+}
+
+.learn-more .mid .bt {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.main-content .wt-vid {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* Learn more End */
+
+
+/* data Start */
+
+.data {
+    object-fit: cover;
+    display: flex;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/learn_more/andrew-coelho-aL7SA1ASVdQ-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    min-height: 500px;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+.percent {
+    font-size: 14rem;
+}
+
+
+/* data End */
+
+
+/* data-list Start */
+
+.circle-s {
+    width: 55%;
+    height: 100%;
+    background: grey;
+    border-radius: 50%;
+}
+
+
+/* data-list End */
+
+
+/* data-card Start */
+
+.data-card {
+    object-fit: cover;
+    display: flex;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/learn_more/andrew-coelho-aL7SA1ASVdQ-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    color: white;
+    min-height: 500px;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+.card_s {
+    border: 1px solid white;
+    padding: 20px 10px;
+    border-radius: 20px;
+    min-height: 7rem;
+}
+
+
+/* data-card End */
+
+
+/* path Start */
+
+.path {
+    object-fit: cover;
+    display: flex;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Background/steven-kamenar-MMJx78V7xS8-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    color: white;
+    min-height: 500px;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+
+/* path End */
+
+
+/* Benefits Start */
+
+section.Benefits {
+    min-height: 75vh;
+}
+
+.Benefits .mid {
+    max-width: 700px;
+    margin: auto;
+}
+
+.Benefits .percent {
+    font-size: 8rem;
+    font-weight: 600;
+    color: #4b4b4b;
+}
+
+.fa-arrow-down {
+    color: #4b4b4b;
+}
+
+
+/* Benefits End */
+
+
+/* case_study Start */
+
+.case_study {
+    object-fit: cover;
+    display: flex;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Background/steven-kamenar-MMJx78V7xS8-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+    min-height: 36rem;
+    color: white;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+
+/* case_study End */
+
+
+/* Setu Cloud Start */
+
+.data-list .cd-img {
+    position: relative;
+}
+
+.data-list .cd-img img {
+    filter: brightness(80%);
+    border-radius: 10px;
+}
+
+.data-list .cd-img::before {
+    position: absolute;
+    width: 70px;
+    height: 45px;
+    font-family: FontAwesome;
+    /* content: "\25BA"; */
+    content: "";
+    color: white;
+    padding: 0px 25px;
+    font-size: 23px;
+    top: 38%;
+    left: 41%;
+    transform: translate(15px, 10px);
+    background-color: #158324c2;
+    transition: all 80ms ease-out 0s;
+    z-index: 2;
+}
+
+.data-list .cd-img:hover::before {
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background-color: #118b21c2;
+    left: 0;
+    top: 0;
+    transform: translate(0px, 0px);
+    transition: all 80ms ease-out 0s;
+    mix-blend-mode: normal;
+    border-radius: 10px;
+}
+
+.data-list .cd-img::after {
+    position: absolute;
+    font-family: FontAwesome;
+    content: "\25BA";
+    color: white;
+    padding: 0px 25px;
+    font-size: 23px;
+    top: 38.2%;
+    left: 41%;
+    transform: translate(15px, 10px);
+    z-index: 5;
+}
+
+
+/* Setu Cloud End */
+
+
+/* data-card-cloud Start */
+
+.data-card-cloud {
+    object-fit: cover;
+    display: flex;
+    /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/learn_more/andrew-coelho-aL7SA1ASVdQ-unsplash.jpg) no-repeat center; */
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    color: black;
+    min-height: 500px;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+.data-card-cloud .mid h2 {
+    color: #076db5;
+    font-weight: 700;
+}
+
+.data-card-cloud .card {
+    background: linear-gradient( #056bf0b2, #056bf0b2), url(../img/learn_more/andrew-coelho-aL7SA1ASVdQ-unsplash.jpg) no-repeat center;
+    /* background: #0079f096; */
+    color: white;
+    border-radius: 20px;
+    text-align: left;
+    min-height: 12rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.data-card-cloud .card:hover {
+    transform: scale(1.05) rotate(-4deg);
+}
+
+
+/* data-card-cloud End */
+
+
+/* data-card-cloud-1 Start */
+
+.data-card-cloud-1 {
+    object-fit: cover;
+    display: flex;
+    /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/learn_more/andrew-coelho-aL7SA1ASVdQ-unsplash.jpg) no-repeat center; */
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    color: black;
+    min-height: 500px;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+.data-card-cloud-1 .mid h2 {
+    color: #076db5;
+    font-weight: 700;
+}
+
+.data-card-cloud-1 .card {
+    background: linear-gradient( #056bf0b2, #056bf0b2), url(../img/learn_more/andrew-coelho-aL7SA1ASVdQ-unsplash.jpg) no-repeat center;
+    /* background: #0079f096; */
+    color: white;
+    border-radius: 20px;
+    text-align: left;
+    min-height: 12rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.data-card-cloud-1 .card:hover {
+    transform: scale(1.05) rotate(-4deg);
+}
+
+
+/* data-card-cloud End */
+
+
+/* Possibilities Start */
+
+.Possibilities .mid h2 {
+    color: #076db5;
+    font-weight: 700;
+}
+
+#accordion .panel {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+#accordion .panel-heading {
+    padding: 0;
+    border: none;
+    position: relative;
+}
+
+#accordion .panel-heading:before {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 100%;
+    background: dodgerblue;
+    border-radius: 10px 0px 0px 10px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#accordion .panel-title a {
+    display: block;
+    padding: 15px 20px 10px 70px;
+    background: #fafafa;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+#accordion .panel-title a.collapsed {
+    background: white;
+    color: #333;
+    border: 1px solid #8080806c;
+    border-radius: 10px;
+}
+
+#accordion .panel-title a:before,
+#accordion .panel-title a.collapsed:before,
+#accordion .panel-title a:after,
+#accordion .panel-title a.collapsed:after {
+    content: "";
+    width: 16px;
+    height: 4px;
+    background: #ffffff;
+    position: absolute;
+    top: 24px;
+    left: 15px;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+#accordion .panel-title a.collapsed:after {
+    transform: rotate(90deg);
+}
+
+#accordion .panel-body {
+    padding: 10px 20px 10px 50px;
+    background: #dbdbdb;
+    font-size: 14px;
+    color: #000000;
+    line-height: 25px;
+    border-top: none;
+}
+
+
+/* Possibilities End */
+
+
+/* vchain Start */
+
+.vchain {
+    object-fit: cover;
+    display: flex;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Background/geran-de-klerk-qzgN45hseN0-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height: 60vh;
+    color: black;
+    min-height: 500px;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+.vchain .container {
+    text-align: center;
+    place-self: center;
+    color: white;
+}
+
+.vchain .mid .bt {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+/* vchain End */
+
+
+/* Analyze Start */
+
+.Analyze .card {
+    background: #fd9013;
+    color: white;
+    min-height: 20rem;
+    border-radius: 10px;
+    border: none;
+    margin: 1rem 0;
+}
+
+.Analyze .card.card1 {
+    background: #13bbfd;
+}
+
+.Analyze .card.card2 {
+    background: #1dc331;
+}
+
+
+/* Analyze End */
+
+
+/* One-Stop Start */
+
+section.One-Stop {
+    min-height: 26rem;
+}
+
+.One-Stop .card.card-s {
+    min-height: 8rem;
+    color: white;
+    padding: 2rem 1.5rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.One-Stop .card.card-s .card-text,
+a {
+    display: none;
+}
+
+.One-Stop .card.card-s:hover {
+    transform: scale(1.02);
+}
+
+.One-Stop .card.card-s:hover .card-text,
+a {
+    transition: all 0.5s ease-in-out;
+    display: block;
+    color: white;
+}
+
+.One-Stop .card.card-s:hover a:hover i {
+    transition: all 0.6s ease;
+    transform: translateX(10px) rotate(180deg);
+}
+
+.One-Stop .card.card-s a {
+    text-decoration: underline;
+}
+
+.One-Stop .img1 {
+    background: linear-gradient( #919191d4, #919191d4), url(../img/Background/j-zeerak-Tkgo0qhNrjQ-unsplash.jpg) no-repeat center;
+}
+
+.One-Stop .img2 {
+    background: linear-gradient( #919191d4, #919191d4), url(../img/Background/pop-zebra-wp81DxKUd1E-unsplash.jpg) no-repeat center;
+}
+
+.One-Stop .img3 {
+    background: linear-gradient( #919191d4, #919191d4), url(../img/Background/steven-kamenar-MMJx78V7xS8-unsplash.jpg) no-repeat center;
+}
+
+.One-Stop .card.card-s:hover.img1 {
+    background: linear-gradient( #00000080, #00000080), url(../img/Background/j-zeerak-Tkgo0qhNrjQ-unsplash.jpg) no-repeat center;
+}
+
+.One-Stop .card.card-s:hover.img2 {
+    background: linear-gradient( #00000080, #00000080), url(../img/Background/pop-zebra-wp81DxKUd1E-unsplash.jpg) no-repeat center;
+}
+
+.One-Stop .card.card-s:hover.img3 {
+    background: linear-gradient( #00000080, #00000080), url(../img/Background/steven-kamenar-MMJx78V7xS8-unsplash.jpg) no-repeat center;
+}
+
+
+/* One-Stop End */
+
+
+/* ehs-software Start */
+
+.ehs-software {
+    object-fit: cover;
+    display: flex;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Ehs-software/master-wen-AX-ma0j6elM-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height: 60vh;
+    color: black;
+    min-height: 500px;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+.ehs-software .container {
+    text-align: center;
+    place-self: center;
+    color: white;
+}
+
+.One-Stop.ehs {
+    min-height: 30rem;
+}
+
+
+/* ehs-software End */
+
+
+/* Strategic Start */
+
+.strategic .card .card-title {
+    font-size: 5rem;
+    color: dodgerblue;
+}
+
+
+/* Strategic End */
+
+
+/* Roadmap Start */
+
+.Roadmap {
+    object-fit: cover;
+    display: flex;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Background/telmo-filho-inBFQUPn3ew-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height: 60vh;
+    color: #ffffff;
+    min-height: 500px;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+.Roadmap .container {
+    text-align: center;
+    place-self: center;
+    color: white;
+}
+
+
+/* Roadmap End */
+
+
+/* not_zero Start */
+
+.not_zero {
+    object-fit: cover;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Background/gontran-isnard-ECVo9BFDKQA-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height: 90vh;
+    color: #ffffff;
+    min-height: 500px;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+.container.zero {
+    max-width: 1050px;
+}
+
+.not_zero .card-1 {
+    color: white;
+    background-color: #076db5;
+}
+
+.not_zero .card-2 {
+    color: white;
+    background-color: #1dc331;
+}
+
+
+/* not_zero End */
+
+
+/* contact Start */
+
+.contact {
+    object-fit: cover;
+    display: flex;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Background/christin-hume-mfB1B1s4sMc-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height: 60vh;
+    color: black;
+    min-height: 500px;
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+.contact .container {
+    text-align: center;
+    place-self: center;
+    color: white;
+}
+
+.contact-us .form-control {
+    height: auto;
+    font-size: 14px;
+}
+
+.contact-us label {
+    font-weight: 600;
+}
+
+.contact-us .form-check-label {
+    font-weight: 400;
+}
+
+
+/* contact End */
+
+
+/* Footer Start */
+
+footer {
+    font-family: 'Ubuntu', 'sans-serif';
+    background-image: url(../img/tom-morel-ktVazL5c7FM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+footer.footer_1 {
+    padding: 5rem 0px;
+}
+
+.ft_ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer-heading {
+    font-weight: 600;
+}
+
+.ft_ul li {
+    margin: 0px 10px;
+    padding: 4px 0px;
+    font-size: 16px;
+}
+
+.top-btn {
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 6px;
+    transition: .3s all ease-in;
+}
+
+.top-btn:hover {
+    background-image: linear-gradient(to right, rgb(0, 31, 82), rgb(0, 69, 126));
+    color: white;
+}
+
+
+/* Footer End */
+
+
+/* Media Query */
+
+@media(max-width:947px) {
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before {
+        content: "\f00d";
+    }
+    .navbar_ai .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: black;
+        text-align: center;
+        color: white;
+        padding-top: 60px;
+        transition: all 0.3s ease;
+    }
+    .navbar_ai .menu.active {
+        left: 0;
+    }
+    .navbar_ai .menu li {
+        display: block;
+    }
+    .navbar_ai .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+        color: white;
+    }
+    .navbar_ai .menu li a:hover,
+    .navbar_ai.sticky .menu li a:hover {
+        color: crimson;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .max-width {
+        padding: 0 20px !important;
+    }
+    .Line p {
+        width: 100%;
+    }
+    .navbar_ai .logo {
+        margin-left: 10px;
+    }
+    .hero {
+        height: auto;
+    }
+    .percent {
+        font-size: 10rem;
+    }
+    .Analyze .card-title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .navbar_ai {
+        position: relative;
+        padding: 10px 1.3rem;
+    }
+    .Line {
+        padding: 2rem;
+    }
+    .box-main {
+        margin: 20px auto;
+        padding: 1.5rem;
+    }
+    .banquet .max-width .container {
+        padding: 0px !important;
+    }
+    .chat-btn {
+        font-size: 11px;
+        right: 7%;
+    }
+    .mid .bt {
+        font-size: 24px;
+    }
+    .Subscribe .mid .bt,
+    .learn-more .mid .bt {
+        font-size: 24px;
+    }
+    .cd-img::before {
+        left: 36.5%;
+    }
+    .cd-img::after {
+        left: 36%;
+    }
+    .data-list .cd-img::before {
+        top: 33%;
+        left: 36.5%;
+    }
+    .data-list .cd-img::after {
+        top: 33.3%;
+        left: 36%;
+    }
+    .percent {
+        font-size: 9rem;
+    }
+}
